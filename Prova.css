@@ -1,0 +1,110 @@
+body {
+
+    background-image: linear-gradient(rgb(63, 160, 127), rgb(9, 84, 144));
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+footer {
+
+    color: white;
+
+}
+a:hover{
+
+    color: gray;
+}
+
+li {
+
+    padding-left: 10px;
+
+}
+
+.header-bar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo{
+    
+    max-width: 10%;
+    max-height: 10%;   
+
+    background-color: white;
+    border-radius:20px 20px 20px 20px;
+
+
+
+}
+
+#itens-do-menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    list-style-type: none;
+    margin-right: 5%;
+
+}
+#home {
+
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(/img/palestra.jpg);
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+    color: rgb(9, 84, 144);
+
+    font-size: 24px;
+
+}
+
+#home-text {
+
+    align-self: center;
+}
+
+#footer-row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#Copyright {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon {
+
+    height: 30px;
+}
+
+#lista-icone {
+
+    list-style: none;
+
+}
